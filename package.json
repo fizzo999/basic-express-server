@@ -1,0 +1,19 @@
+{
+  "name": "basic-express-server",
+  "version": "1.0.0",
+  "description": "a basic Express server using best practices, including server modularization, use of middleware, and tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fizzo999/basic-express-server.git"
+  },
+  "author": "Fizzo Pannosch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fizzo999/basic-express-server/issues"
+  },
+  "homepage": "https://github.com/fizzo999/basic-express-server#readme"
+}
