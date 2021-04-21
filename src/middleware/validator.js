@@ -2,11 +2,11 @@
 
 const validator = (req, res, next) => {
   if (req.query.name) {
-    res.send(req.query);
-    // next();
+    // res.send(req.query);
+    next();
   } else {
-    res.status(500).json( {msg: 'not found'} );
-    // next('Something went seriousll wrong, Dude');
+    // res.status(500).json( {msg: 'not found'} );
+    next('Something went seriously wrong, Dude');
   }
 };
 
